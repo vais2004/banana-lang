@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Charm&family=Kaushan+Script&display=swap');
+body{
+    content:"";
+    background: url(/images/monkeysurprise.png) left no-repeat,url(/images/monkeysmile.png) right no-repeat,url("/images/back-img.png") repeat;
+    background-size: 20rem , 25rem , 10rem;
+    /* background-repeat: no-repeat, repeat; */
+    /* opacity: 0.5; */
+    background-color: hsla(120, 60%, 70%, 0.3);
+    text-align: center;
+}
+h1,h3{
+    font-family: 'Kaushan Script', cursive;
+    color: #27272a;
+    text-shadow: 5px 5px 6px rgba(120, 53, 15, 1);
+    margin: auto;
+    width: auto;
+    background-color: #fde047;
+    font-size: 3rem;
+    padding-top: 5px;
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
+}
+textarea{
+    display: inline-block;
+    width: 50%;
+    height: 8rem;
+    font-size: 1rem;
+    text-align: center;
+    border-radius: 1rem;
+}
+#outputText{
+    pointer-events: none;
+    font-weight: bold;
+}
+
+#btn-translate{
+    display: block;
+    text-align: center;
+    margin: auto;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    width: 10rem;
+    font-weight: bold;
+    padding-bottom: 5px;
+    background-color: #a3e635;
+    cursor: pointer;
+    border-radius: 1rem;
+    box-shadow: 0 9px #999;
+}
+#btn-translate:hover{
+    background-color: #bef264;
+}
+#btn-translate:active{
+    background-color: #a3e635;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+h3{
+    border: 2px solid black;
+    border-radius: 5px;
+    font-family: 'Charm', cursive;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    width: 20rem;
+    margin-top: 2rem;
+    padding-top: 0px;
+    padding-bottom: 2px;
+}
+
+.list-item-inline {
+    display: inline;
+    padding-inline-start: 2rem;
+}
