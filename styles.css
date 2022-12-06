@@ -14,7 +14,7 @@ h1,h3{
     text-shadow: 5px 5px 6px rgba(120, 53, 15, 1);
     margin: auto;
     width: auto;
-    background-color: #fde047;
+    background-color: #fdfa47;
     font-size: 3rem;
     padding-top: 5px;
     padding-bottom: 1rem;
@@ -42,16 +42,16 @@ textarea{
     width: 10rem;
     font-weight: bold;
     padding-bottom: 5px;
-    background-color: #a3e635;
+    background-color: #35a5e6;
     cursor: pointer;
     border-radius: 1rem;
     box-shadow: 0 9px #999;
 }
 #btn-translate:hover{
-    background-color: #bef264;
+    background-color: #f264b2;
 }
 #btn-translate:active{
-    background-color: #a3e635;
+    background-color: #a535e6;
     box-shadow: 0 5px #666;
     transform: translateY(4px);
 }
