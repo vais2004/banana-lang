@@ -1,11 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Charm&family=Kaushan+Script&display=swap');
 body{
     content:"";
-    background: url(/images/monkeysurprise.png) left no-repeat,url(/images/monkeysmile.png) right no-repeat,url("/images/back-img.png") repeat;
-    background-size: 20rem , 25rem , 10rem;
-    /* background-repeat: no-repeat, repeat; */
-    /* opacity: 0.5; */
-    background-color: hsla(120, 60%, 70%, 0.3);
+    background-color: hsla(120, 96%, 49%, 0.3);
     text-align: center;
 }
 h1,h3{
@@ -14,7 +10,7 @@ h1,h3{
     text-shadow: 5px 5px 6px rgba(120, 53, 15, 1);
     margin: auto;
     width: auto;
-    background-color: #fdfa47;
+    background-color: #fffd7b;
     font-size: 3rem;
     padding-top: 5px;
     padding-bottom: 1rem;
